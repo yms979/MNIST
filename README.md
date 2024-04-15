@@ -3,6 +3,15 @@
 1. Plot train, test acc and ross
 ![Figure_1](https://github.com/yms979/MNIST/assets/45974948/17ae8926-a9be-4ae7-b439-06aa15bde042)
 
+
+
+
+
+
+
+
+
+
 2. Compare the predictive performances of LeNet-5 and your custom MLP. Also, make sure that the accuracy of LeNet-5 (your implementation) is similar to the known accuracy. 
    이때 사용된 MLP과 LeNet-5의 파라미터 수는 다음과 같다.
 -----------------------------------------------------------------------------------------------
@@ -22,10 +31,13 @@
   총 파라미터 수: 100,480 + 8,256 + 650 = 109,386
 -----------------------------------------------------------------------------------------------
   Epoch [30/30]
+  
   Training LeNet-5...
   LeNet-5 - Train Loss: 0.0910, Train Acc: 97.30%, Test Loss: 0.0661, Test Acc: 97.84%
+  
   Training CustomMLP...
   CustomMLP - Train Loss: 0.4891, Train Acc: 85.41%, Test Loss: 0.2136, Test Acc: 93.65%
+  
 -----------------------------------------------------------------------------------------------
 
    위 30번째 에포크를 바탕으로 확인 한 결과 LeNet-5와 MLP 모두 좋은 결과를 나타내고 있지만, LeNet-5가 약 4%가량 높은 accuracy를 가지며, Loss또한 0.2 정도 낮은 지표를 보여준다.
