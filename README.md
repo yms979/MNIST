@@ -12,10 +12,10 @@
 
 
 
-
+-----------------------------------------------------------------------------------------------
 2. Compare the predictive performances of LeNet-5 and your custom MLP. Also, make sure that the accuracy of LeNet-5 (your implementation) is similar to the known accuracy. 
    이때 사용된 MLP과 LeNet-5의 파라미터 수는 다음과 같다.
------------------------------------------------------------------------------------------------
+
   **LeNet-5 모델**:
   Conv1: (5 * 5 * 1 + 1) * 6 = 156
   
@@ -49,7 +49,7 @@
   Training CustomMLP...
   CustomMLP - Train Loss: 0.4891, Train Acc: 85.41%, Test Loss: 0.2136, Test Acc: 93.65%
   
------------------------------------------------------------------------------------------------
+
 
    위 30번째 에포크를 바탕으로 확인 한 결과 LeNet-5와 MLP 모두 좋은 결과를 나타내고 있지만, LeNet-5가 약 4%가량 높은 accuracy를 가지며, Loss또한 0.2 정도 낮은 지표를 보여준다.
    LeNet-5를 처음으로 제시한 논문("Gradient-based learning applied to document recognition.")에서는 30에포크에서 약 99%의 accuracy를 나타낸다고 한다.
@@ -59,7 +59,7 @@
 
 
 
-   
+-----------------------------------------------------------------------------------------------
    
 3. Employ at least more than two regularization techniques to improve LeNet-5 model.
   본 모델 및 학습과정에서 2가지의 정규화 기법이 들어가 있다.
