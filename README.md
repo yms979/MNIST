@@ -12,6 +12,7 @@
 
 
 
+
 2. Compare the predictive performances of LeNet-5 and your custom MLP. Also, make sure that the accuracy of LeNet-5 (your implementation) is similar to the known accuracy. 
    이때 사용된 MLP과 LeNet-5의 파라미터 수는 다음과 같다.
 -----------------------------------------------------------------------------------------------
@@ -54,6 +55,11 @@
    LeNet-5를 처음으로 제시한 논문("Gradient-based learning applied to document recognition.")에서는 30에포크에서 약 99%의 accuracy를 나타낸다고 한다.
    하이퍼 파라미터 튜닝, 모델 구조 변환 등 다양한 실험을 통하여 99%를 달성 할 수 있었겠지만, 개인의 역량 부족으로 97%까지밖에 이끌어 낼 수 있었다.
    수업에서 배운것과 같이 약 4만개의 파라미터 차이에서도 단순 MLP 구조보다 Convolution 레이어를 활용하여 지역적인 정보를 포착하는 방식이 이미지 분류 task에 더 우월한 성능을 가지는 것을 확인 할 수 있었다.
+
+
+
+
+   
    
 3. Employ at least more than two regularization techniques to improve LeNet-5 model.
   본 모델 및 학습과정에서 2가지의 정규화 기법이 들어가 있다.
